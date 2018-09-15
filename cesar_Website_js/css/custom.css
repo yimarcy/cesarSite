@@ -29,30 +29,58 @@ text-decoration:none !important;
     font-size: 16px;
     margin: 0 auto;
     text-align: center;
-    sletter-spacing: 2px;
+    letter-spacing: 2px;
     width: 670px;
 }
 
+.social_header_bar {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  top: 0;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.social_header_bar ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.social_header_bar li {
+  /*background-color: #800020;*/
+  margin-top: 0px;
+  border-radius: 6px;
+}
+.btn-twitter-square {
+  padding-right: 4px !important ;
+}
+#insta{ /*IG icon was uncentered*/
+  padding-left: 2px !important;
+}
 .social{ /* logo outline*/
-    /*color:  #800020; burgandy*/
-    color: white;
+    color:  #800020; /*burgandy*/
     text-align: center;
     font-size: x-large !important;
 }
-
 .contact_social_links .sociallogo_bkgrnd{
-    color: #ffffff !important;
+    color: #800020 ; /*logo outline*/
     /*background-color: #800020;*/
-    font-size: medium !important;
+    font-size: small!important;
+    text-align: center;
+}
+.contact_social_links .index_social{
+  /*color: white !important;*/
 }
 
 .full_btn {
+    text-align: center;
     position: relative;
     height: 20px;
     width: 50px;
     box-sizing: border-box;
     padding: 3px 10px 1px 6px;
-    /* background-color: #800020; */
+    /*background-color: #800020;/* box background color*/
     color: #fff;
     border-radius: 3px;
     font-weight: 500;
@@ -75,20 +103,7 @@ text-decoration:none !important;
     font-size: x-large;
     margin: 30px !important;
 }
-.social_header_bar {
-  position: absolute;
-  display: inline-block;
-  text-align: right;
-  top: 0;
-  right: 0;
-  margin-right: 30px;
-  margin-top: 10px;
-}
 
-/*currently unused*/
-.black_background {
-    background: #000000;
-}
 
 
 .header_img {
@@ -271,12 +286,14 @@ body{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size:17px;
   color:#24282d;
+  color: white;
   line-height:1.6;
 }
 
 #showcase{
   /*background-image:url('../images/homeimg.jpg');*/
   background-color: #24282d;
+  background-color: white;
   background-size:cover;
   background-position:center;
   height:100vh;
@@ -345,7 +362,8 @@ body{
   width: 0px;
   height: 400px;
   /* background: #b4002c; /* solid red*/
-  background: rgba(154, 0, 38, 0.71);
+  /*background: rgba(154, 0, 38, 0.71);*/
+  background: rgba(255, 255, 255, 0.77);
   position: absolute;
   top: 0;
   display: flex;
@@ -355,10 +373,13 @@ body{
   transition: 0.7s ease;
 }
 .post-s h2{
-  color: white;
-  font-size: 50px;
-  border: 6px solid white;
+  /*visibility: hidden;*/
+  color: black;
+  font-size: small;
+  border: 5px solid white;
   padding: 10px 30px;
+  font-family: Helvetica, Arial, serif;
+  letter-spacing: 0.8em;
 }
 
 
