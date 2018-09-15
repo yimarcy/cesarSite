@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+
+        <link rel="stylesheet" href="css/custom.css?v=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="header_img">
+            <a href="index.html" onfocus="this.blur()">
+                <img src="images/cesarb.PNG" height="100" width="300">
+            </a>
+        </div>
+        
+        <title>MUSIC - CESAR B.</title>
+        <div class="nav_container" id="myNavContainer">
+        <ul>
+          <li><a class="nav_link" href="music.html" id="nav1" rel="history" name="cesarb">MUSIC</a></li>
+          <li><a class="nav_link" href="beats.html" id="nav2" rel="history" name="cesarb">BEATS</a></li>
+          <li><a class="nav_link" href="video.html" id="nav3" rel="history" name="cesarb">VIDEO</a> </li>
+          <li><a class="nav_link" href="about.html" id="nav4" rel="history" name="cesarb">ABOUT</a></li>     
+          <li><a class="nav_link" href="contact.html" id="nav5" rel="history" name="cesarb">CONTACT</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+        </ul>
+        </div>
+        <br/><br/>
+
+
+        <!-- souncloud -->
+        <div class = ".spotlight_content" >
+            <div class="player_container">
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336763942&color=%232e2028&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+        </div>
+        <div class="music_gallery_container">
+
+            <div class = "music_row" id="music_row2">
+                <div class = "inner_player_container">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304357902&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+                <div class="inner_player_container">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323232477&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+                <div class="inner_player_container">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306578247&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                 </div>
+            </div>
+
+
+
+            <div class = "music_row" id="music_row3">
+                <div class="inner_player_container">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306554750&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+                <div class="inner_player_container">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267595302&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe> 
+                </div>
+                <div class="inner_player_container">
+                    <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238343399&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src='js/main.js'></script>
+    <!-- TODO: add this to js folder-->
+    <script>
+        function go(loc) {
+            document.getElementById('soundcloud_player').setAttribute('src', loc);
+      }
+    </script>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myNavContainer");
+        if (x.className === "nav_container") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav_container";
+        }
+    }
+    </script>
+         
+</body>
+</html>

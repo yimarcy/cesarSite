@@ -1,0 +1,391 @@
+
+
+
+/*
+Common
+*/
+a:-webkit-any-link{
+text-decoration:none !important;
+}
+
+
+
+.white_text {
+    font-family: Helvetica, Arial, serif;
+    color: white;
+    font-size: 14px;
+}
+
+.project_title {
+    color: #000000;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    text-align: center;
+    width: 670px;
+}
+
+.project_subtitle {
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    sletter-spacing: 2px;
+    width: 670px;
+}
+
+.social{ /* logo outline*/
+    /*color:  #800020; burgandy*/
+    color: white;
+    text-align: center;
+    font-size: x-large !important;
+}
+
+.contact_social_links .sociallogo_bkgrnd{
+    color: #ffffff !important;
+    /*background-color: #800020;*/
+    font-size: medium !important;
+}
+
+.full_btn {
+    position: relative;
+    height: 20px;
+    width: 50px;
+    box-sizing: border-box;
+    padding: 3px 10px 1px 6px;
+    /* background-color: #800020; */
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+        letter-spacing: 2px;
+        font-size: small;
+}
+
+.btn-youtube-square {
+    margin: 10px 0px 30px 0px !important;
+    box-sizing: border-box;
+    padding: 10px 10px 1px 6px;
+
+}
+.btn-soundcloud {
+    margin: 10px 30px 0px 0px !important;
+}
+
+.contact_social_links_notext .btn{
+    font-size: x-large;
+    margin: 30px !important;
+}
+.social_header_bar {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  top: 0;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+/*currently unused*/
+.black_background {
+    background: #000000;
+}
+
+
+.header_img {
+    text-align: center;
+}
+
+
+
+
+/* nav */
+.nav_container  {   
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    /*font-family: "Lucida Console", Monaco, monospace;*/
+    letter-spacing: .2rem;
+}
+.nav_container ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav_container  li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: small;
+}
+.nav_container li a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    padding: 0 0 5px 0;
+    text-transform: uppercase;
+}
+.nav_container li a:before{
+  content: '';
+  color: #800020;
+  width: 35px;
+  position: absolute;
+  border-bottom: 5px solid #b4002c;
+  bottom: 0;
+  right: 350px;
+  transition: 0.7s all;
+}
+.nav_container li a:hover:before{
+  right: 0;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.nav_container  .icon {
+  display: none;
+  color: black;
+}
+a.nav_link:visited
+{
+   color: black;
+   text-decoration: none;
+}
+
+
+#contact_info_text{
+  color: white;
+  color: #c6103e; /* #800020;*/
+  font-size: x-small;
+  font-weight: bold;
+    letter-spacing: .2rem;
+
+}
+
+
+
+.main_container{
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    width: 670px;
+}
+
+
+
+
+.project_content {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    width: 670px;
+}
+
+.project_content img {
+    float: none !important;
+  margin: 0 0 15px 0;
+}
+
+#content_container {
+    margin: 50px auto 0;
+    position: relative;
+    z-index: 10;
+    max-width: 970px;
+}
+
+.project_thumb {
+    border: 0px solid transparent;
+    float: relative;
+    margin: 0 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    width: 200px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: -webkit-inline-box;
+    cursor:pointer;
+}
+
+.cardimgcrop {
+    margin: 0 0 16px 0;
+    overflow: hidden;
+    position: relative;
+}
+.excerpt {
+    color: #666;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    margin: 7px 0 10px 0;
+    width: 220px;
+}
+
+.project_thumb .nohover {
+    text-decoration: none;
+}
+
+#vid2 {
+    position: absolute;
+    left: 240px;
+}
+
+
+/*
+MUSIC TAB
+*/
+
+.music_gallery_container {
+    margin: 100px 0 0 100px; 
+    width: 60%;
+    display: inline;
+}
+.music_row {
+    text-align: center; 
+    margin: 0 auto;
+}
+.inner_player_container {
+    display:inline-block;
+    text-align: center;
+}
+
+
+.spotlight_content {
+    margin: 20px 0; 
+}
+
+
+
+/*Index full bleed image test*/
+/*https://codepen.io/bradtraversy/pen/XerXYV*/
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#24282d;
+  line-height:1.6;
+}
+
+#showcase{
+  /*background-image:url('../images/homeimg.jpg');*/
+  background-color: #24282d;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+  color: #f9f3f4;
+  font-family: 'Century Gothic',sans-serif;
+  text-shadow: 0 0 300px #000;
+  letter-spacing: .2rem;
+}
+
+#showcase p{
+  font-size:20px;
+  /*font-family: Impact, Charcoal, sans-serif; */
+  font-family: "Lucida Console", Monaco, monospace;
+  letter-spacing: .2rem;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#f9f3f4;
+  border:black 3px solid;
+  padding:7px 13px;
+  border-radius: 9px;
+  margin-top:20px;
+  font-size: x-small;
+  font-family: 'Century Gothic',sans-serif;
+  font-weight: bold;
+  letter-spacing: .3rem;
+
+
+}
+
+#showcase .button:hover{
+  color: #2196f3;
+
+}
+
+
+/*Hover Pcture main page*/
+
+.post{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+}
+.post:hover .post-s{
+  width: 600px;
+}
+.post img {
+  display: block;
+  width: 600px;
+  height: 400px;
+}
+.post-s{
+  width: 0px;
+  height: 400px;
+  /* background: #b4002c; /* solid red*/
+  background: rgba(154, 0, 38, 0.71);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+.post-s h2{
+  color: white;
+  font-size: 50px;
+  border: 6px solid white;
+  padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+/* Responsive Nav*/
+@media screen and (max-width: 600px) {
+  .nav_container li:not(:first-child) {display: none;}
+  .nav_container a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav_container.responsive {position: relative;}
+  .nav_container.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav_container.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
