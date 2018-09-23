@@ -1,99 +1,111 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
+<!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="Cesar B">
-  <meta name="cargo_title" content="CESAR B." />
-  <link rel="stylesheet" href="css/custom.css?v=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+    <meta http-equiv="cleartype" content="on" />
 
-  <title>Cesar Beats</title>
+    <link rel="stylesheet" href="css/custom.css?v=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  href="fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet">
 
-
-  <!-- HIDE HEADER LOGO
-  <div class="header_img" >
-    <a href="index.html" onfocus="this.blur()">
-      <img src="images/cesarb.PNG" height="100" width="300">
-    </a>
-  </div>
-
-    -->
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 </head>
 
-
 <body>
-  <!-- loadspinner
-  <img src="/_gfx/loadingAnim.gif" id="nav_loadspin">
--->
+  <link rel="shortcut icon" href="http://favicon.cargocollective.com/160375.ico">
+  <link rel="canonical" href="http://cesarb.com/CONTACT">
+  <title>Home</title>
 
-<!-- TODO: Add email logo links -->
-<div class="social_header_bar" > 
-  <ul class="contact_social_links">
-    <li>
-      <a href="http://twitter.com/home?status=SHAREMESSAGE" title="Follow on Twitter" target="_blank" class="full_btn btn-twitter-square"><i class="fa fa-twitter sociallogo_bkgrnd contact index_social" aria-hidden="true"></i></a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/chefboyarcezz" title="Follow On Instagram" target="_blank" class="full_btn btn-instagram"> <i class="fa fa-instagram sociallogo_bkgrnd contact index_social" aria-hidden="true"></i></a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/chefboyarcezz" title="Follow On Youtube" target="Youtube.com" class="full_btn btn-youtube"> <i class="fa fa-youtube-play sociallogo_bkgrnd contact index_social" aria-hidden="true"></i></a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=SHAREMESSAGE" title="Follow on Facebook" target="_blank" class="full_btn btn-facebook"> <i class="fa fa-facebook sociallogo_bkgrnd contact index_social" aria-hidden="true"></i></a>
-    </li>
-  </ul>
-</div>
-
-    <!-- Nav Bar on top of page - might be good for consistency 
+  <!-- TODO: Add email logo links -->
+  <div class="social_header_bar"> 
+      <ul class="contact_social_links">
+          <li>
+              <a href="http://twitter.com/home?status=SHAREMESSAGE" title="Follow on Twitter" target="_blank" class="full_btn btn-twitter-square"><i class="fa fa-twitter sociallogo_bkgrnd contact" aria-hidden="true"></i></a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com/chefboyarcezz" title="Follow On Instagram" target="_blank" class="full_btn btn-instagram"> <i class="fa fa-instagram sociallogo_bkgrnd contact"  id="insta" aria-hidden="true"></i></a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com/chefboyarcezz" title="Follow On Youtube" target="Youtube.com" class="full_btn btn-youtube"> <i class="fa fa-youtube-play sociallogo_bkgrnd contact" aria-hidden="true"></i></a>
+          </li>
+          <li>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=SHAREMESSAGE" title="Follow on Facebook" target="_blank" class="full_btn btn-facebook"> <i class="fa fa-facebook sociallogo_bkgrnd contact" aria-hidden="true"></i></a>
+          </li>
+      </ul>
+  </div> 
   <div class="nav_container" id="myNavContainer">
-    <ul>
-      <li><a class="nav_link" href="music.html" id="nav1" rel="history" name="cesarb">MUSIC</a></li>
-      <li><a class="nav_link" href="beats.html" id="nav2" rel="history" name="cesarb">BEATS</a></li>
-      <li><a class="nav_link" href="video.html" id="nav3" rel="history" name="cesarb">VIDEO</a> </li>
-      <li><a class="nav_link" href="about.html" id="nav4" rel="history" name="cesarb">ABOUT</a></li>     
-      <li><a class="nav_link" href="contact.html" id="nav5" rel="history" name="cesarb">CONTACT</a></li>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
-    </ul>
-  </div>
-  -->
-
-  <div id="showcase">
-  <!--
-    <h1>Cesar B. Studios</h1>
-    <p>studios</p>
-    <a href="#" class="button">engulf your senses</a>
-    -->
-
-
-    <!-- nav bar on top of image -->
-    <div class="nav_container" id="myNavContainer">
+    <div class="TitleBanner">Cesar Belmonte.</div>
+    <div class ="navList">
       <ul>
         <li><a class="nav_link" href="music.html" id="nav1" rel="history" name="cesarb">MUSIC</a></li>
         <li><a class="nav_link" href="beats.html" id="nav2" rel="history" name="cesarb">BEATS</a></li>
         <li><a class="nav_link" href="video.html" id="nav3" rel="history" name="cesarb">VIDEO</a> </li>
         <li><a class="nav_link" href="about.html" id="nav4" rel="history" name="cesarb">ABOUT</a></li>     
         <li><a class="nav_link" href="contact.html" id="nav5" rel="history" name="cesarb">CONTACT</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
       </ul>
     </div>
-    
-    <div class="post">
-      <img src="images/all_i_need_is_a_witness.png" alt="">
-      <!-- OR alternate temp image 
-      <img src="images/homeimg.jpg" alt="">
-      -->
-      <a href="MUSIC.HTML"> <div class="post-s"><h2>listen</h2></div></a> 
-      <a id="contact_info_text">Cesar B. Studios | 904-881-3352 </a>
-    </div>
-
-
-
   </div>
 
-  <!-- TODO: add this to js folder-->
-  <script src="js/main.js"></script>
+    <div class="parallax_container" id="parallax_main"> </div>
+    <div class="maincontent_container"> 
 
+      <div class="section_seperator"></div>
+      <div class="section_container ">
+        <div class="section_innerContent_container">        </div>
+      </div>
+
+
+      <div class="section_seperator"></div>
+      <div class="section_container gray_bkgrnd">
+        <div class="section_innerContent_container">        </div>
+      </div>
+
+      <div class="section_seperator"></div>
+      <div class="section_container ">
+        <div class="section_innerContent_container">        </div>
+      </div>
+
+
+      <div class="section_seperator"></div>
+      <div class="section_container gray_bkgrnd">
+        <div class="section_innerContent_container">        </div>
+      </div>
+
+
+
+
+
+
+    <div class="footer_container"></div>
+
+
+
+    <!-- TODO: add this to js folder-->
+    <script>
+        function go(loc) {
+            document.getElementById('soundcloud_player').setAttribute('src', loc);
+      }
+    </script>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myNavContainer");
+        if (x.className === "nav_container") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav_container";
+        }
+    }
+    </script>
+         
 
 </body>
 </html>
