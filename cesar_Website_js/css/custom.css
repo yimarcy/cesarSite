@@ -211,6 +211,7 @@ a.nav_link:visited
   background-color: rgb(233, 230, 230, 0.43);
 
 }
+
 .section_innerContent_container {
   margin: 20px auto;
   width: 80%;
@@ -261,6 +262,13 @@ a.nav_link:visited
   width: 60%;
 }
 
+#innerContent_container_socialmedia  {flex-direction: column; justify-content: unset;}
+.section_center_container {text-align: center;}
+.unset_minHeight { min-height: unset; }
+
+.section_innerContent_container h5{
+  text-align: -webkit-center; 
+}
 
 /*footer*/
 .footer_container {
